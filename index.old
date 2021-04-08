@@ -4,9 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>abécédaire</title>
-  <link rel="stylesheet" href="main.css">
-  <script src="stylesheet" href="test.js" charset="utf-8"></script>
-
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
   <a class="filter_link" href="#" data-filter="all" tabindex="-1">ALL</a>

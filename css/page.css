@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Movement";
+  font-size: 1em;
+  font-weight: 200;
+  src: url('fonts/Movement/MovementV.ttf');
+}
+
+.titre{
+  font-family: "Movement";
+  width: 100vw;
+  color: #CB997E;
+  text-align: center;
+}
+
+p{
+  font-family: "Montserrat";
+  color: #6B705C;
+  text-align: center;
+  width: 30vw;
+  margin:auto;
+  margin-top: 3vw;
+}
+
+.arrosoir_1{
+  height: 37vh;
+  margin-left: 50vh;
+  margin-top: 10vw;
+}
+
+.arrosoir_2{
+  height: 40vh;
+  margin-left: 5vh;
+  margin-top: 3vw;
+}
+
+.arrosoir_3{
+  height: 40vh;
+  margin-left: 50vh;
+  margin-top: 3vw;
+}
+
+.arrosoir_4{
+  height: 40vh;
+  margin-left: 33vh;
+  margin-top: 15vw;
+}
+
+.arrosoir_5{
+  height: 60vh;
+  margin-left: 33vh;
+  margin-top: 15vw;
+}
+
+.arrosoir_6{
+  height: 40vh;
+  margin-left: 33vh;
+  margin-top: 15vw;
+}
+
+.arrosoir_7{
+  height: 40vh;
+  margin-left: 33vh;
+  margin-top: 15vw;
+}
+
+.arrosoir_8{
+  height: 40vh;
+  margin-left: 33vh;
+  margin-top: 15vw;
+}
+
+.retour{
+  font-family: "Montserrat";
+  color: #6B705C;
+}

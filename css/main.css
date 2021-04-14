@@ -58,9 +58,12 @@ p{
 }
 
 .filter_link{
-  display:block;
+  /*display:block;
   float:left;
-  width:10%;
+  width:10%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration:none;
   text-align:center;
   padding: 5px 0;
@@ -70,11 +73,11 @@ p{
   font-weight: bold;
 }
 
-.boutons{
+/*.boutons{
 display: flex;
 justify-content: center;
 align-items: center;
-}
+}*/
 
 .images{
 width: 200px;
@@ -96,27 +99,23 @@ div{
 
 a:focus[data-filter]{
     opacity:.8;
-     outline:none;
+    outline:none;
 }
 
 
-section[data-filter="all"]{
-  background:#FF5733;
+div[data-filter="all"]{
 }
 
-section[data-filter="fleurs"]{
-  background:#FF5733;
+div[data-filter="fleurs"]{
 }
 
-section[data-filter="plantes"]{
-  background:#FFC300;
+div[data-filter="plantes"]{
 }
 
-section[data-filter="outils"]{
-  background:#FFC300;
+div[data-filter="outils"]{
 }
 
-a[data-filter="fleurs"]:focus ~ .boutons section:not([data-filter="outils"] [data-filter="plantes"]){
+a[data-filter="fleurs"]:focus ~ #lettre div:not([data-filter="fleurs"]){
   width:0;
   height:0;
   padding:0;
@@ -125,7 +124,7 @@ a[data-filter="fleurs"]:focus ~ .boutons section:not([data-filter="outils"] [dat
 }
 
 
-a[data-filter="plantes"]:focus ~ .boutons section:not([data-filter="fleurs"] [data-filter="outils"]){
+a[data-filter="plantes"]:focus ~ #lettre div:not([data-filter="plantes"]){
     width:0;
   height:0;
   padding:0;
@@ -133,7 +132,7 @@ a[data-filter="plantes"]:focus ~ .boutons section:not([data-filter="fleurs"] [da
   display: none;
 }
 
-a[data-filter="outils"]:focus ~ .boutons section:not([data-filter="fleurs"] [data-filter="plantes"]){
+a[data-filter="outils"]:focus ~ #lettre div:not([data-filter="outils"]){
     width:0;
   height:0;
   padding:0;

@@ -9,6 +9,14 @@ body{
   background-color: #FFF4EB;
 }
 
+.click{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: normal;
+  color: #CB997E;
+  text-decoration: none;
+}
+
 .titre{
   font-family: "Movement";
   width: 100vw;

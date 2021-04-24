@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Movement";
+  font-size: 1em;
+  font-weight: 200;
+  src: url('fonts/movement/MovementV.ttf');
+}
+
+body{
+  background-color: #FFF4EB;
+}
+
+.click{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: normal;
+  color: #CB997E;
+  text-decoration: none;
+  text-align: center;
+}
+
+.titre{
+  font-family: "Movement";
+  width: 100vw;
+  color: #CB997E;
+  text-align: center;
+}
+
+.arrosoir{
+width: 30%;
+}

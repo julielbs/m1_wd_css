@@ -71,7 +71,6 @@ p{
 .arrosoir_bd{
   width: 21vw;
   height: 36vh;
-  margin-right: 5vw;
 }
 
 .ikea{
@@ -107,7 +106,6 @@ p{
 .brouette_bd{
   width: 21vw;
   height: 36vh;
-  margin-right: 5vw;
   margin-bottom: 5vh;
 }
 
@@ -152,7 +150,6 @@ p{
 .cactus_bd{
   width: 21vw;
   height: 36vh;
-  margin-right: 5vw;
 }
 
 /* On termine les cactus ici  */
@@ -564,6 +561,254 @@ p{
 }
 
 /* On termine les queen ici  */
+
+/* On commence les rose ici  */
+
+.rose_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.rose_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.rose_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.rose_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les rose ici  */
+
+/* On commence les strelitzia ici  */
+
+.strelitzia_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.strelitzia_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.strelitzia_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.strelitzia_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les strelitzia ici  */
+
+/* On termine les transplantoir ici  */
+
+.trans_g{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+.trans_c{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+  margin-right: 5vw;
+}
+
+.trans_d{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+  margin-right: 5vw;
+}
+
+/* On termine les transplantoir ici  */
+
+/* On termine les Utricularia ici  */
+
+.utricularia{
+  width: 66vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les utricularia ici  */
+
+/* On commence les vases ici  */
+
+.vase_hg{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.vase_hc{
+  width: 23vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.vase_hd{
+  width: 17vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.vase_bg{
+  width: 25vw;
+  height: 36vh;
+  margin-right: 5vw;
+}
+
+.vase_bc{
+  width: 16vw;
+  height: 36vh;
+  margin-right: 5vw;
+}
+
+.vase_bd{
+  width: 21vw;
+  height: 36vh;
+}
+
+/* On termine les vases ici  */
+
+/* On commence les Washingtonia ici  */
+
+.wash_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.wash_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.wash_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.wash_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les Washingtonia ici  */
+
+/* On commence les xou ici  */
+
+.xou_hg{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.xou_hc{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.xou_hd{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.xou_bg{
+  width: 31vw;
+  height: 30vh;
+  margin-right: 14vw;
+}
+
+
+.xou_bd{
+  width: 31vw;
+  height: 30vh;
+}
+
+.ligne_bas{
+  margin-left: -5vw;
+}
+
+/* On termine les xou ici  */
+
+/* On commence les yucca ici  */
+
+.yucca_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.yucca_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.yucca_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.yucca_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les yucca ici  */
 
 
 

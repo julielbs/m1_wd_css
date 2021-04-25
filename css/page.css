@@ -10,66 +10,579 @@
   width: 100vw;
   color: #CB997E;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 p{
   font-family: "Montserrat";
   color: #6B705C;
   text-align: center;
-  width: 30vw;
+  width: 40vw;
   margin:auto;
   margin-top: 3vw;
 }
 
-.arrosoir_1{
-  height: 37vh;
-  margin-left: 50vh;
-  margin-top: 10vw;
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
 }
 
-.arrosoir_2{
-  height: 40vh;
-  margin-left: 5vh;
-  margin-top: 3vw;
+/* On commence les arrosoirs ici  */
+
+.arrosoir_hg{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
 }
 
-.arrosoir_3{
-  height: 40vh;
-  margin-left: 50vh;
-  margin-top: 3vw;
+.arrosoir_hc{
+  width: 23vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
 }
 
-.arrosoir_4{
-  height: 40vh;
-  margin-left: 33vh;
-  margin-top: 15vw;
+.arrosoir_hd{
+  width: 17vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
 }
 
-.arrosoir_5{
-  height: 60vh;
-  margin-left: 33vh;
-  margin-top: 15vw;
+.arrosoir_bg{
+  width: 25vw;
+  height: 36vh;
+  margin-right: 5vw;
 }
 
-.arrosoir_6{
-  height: 40vh;
-  margin-left: 33vh;
-  margin-top: 15vw;
+.arrosoir_bc{
+  width: 16vw;
+  height: 36vh;
+  margin-right: 5vw;
 }
 
-.arrosoir_7{
-  height: 40vh;
-  margin-left: 33vh;
-  margin-top: 15vw;
+.arrosoir_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
 }
 
-.arrosoir_8{
-  height: 40vh;
-  margin-left: 33vh;
-  margin-top: 15vw;
+.ikea{
+  text-decoration: none;
 }
+
+/* On termine les arrosoirs ici  */
+
+/* On commence les brouettes ici  */
+
+.brouette_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.brouette_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.brouette_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.brouette_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+/* On termine les brouettes ici  */
+
+/* On commence les cactus ici  */
+
+.cactus_hg{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.cactus_hc{
+  width: 23vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.cactus_hd{
+  width: 17vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.cactus_bg{
+  width: 25vw;
+  height: 36vh;
+  margin-right: 5vw;
+}
+
+.cactus_bc{
+  width: 16vw;
+  height: 36vh;
+  margin-right: 5vw;
+}
+
+.cactus_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+}
+
+/* On termine les cactus ici  */
+
+/* On commence les diosma ici  */
+
+.diosma_hg{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.diosma_hc{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.diosma_hd{
+  width: 22vw;
+  height: 38vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.diosma_bg{
+  width: 31vw;
+  height: 30vh;
+  margin-right: 14vw;
+}
+
+
+.diosma_bd{
+  width: 31vw;
+  height: 30vh;
+}
+
+.ligne_bas{
+  margin-left: -5vw;
+}
+
+/* On termine les diosma ici  */
+
+
+/* On commence les euca ici  */
+
+.euca_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.euca_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.euca_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.euca_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les euca ici  */
+
+/* On commence les ficus ici  */
+
+.ficus_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.ficus_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.ficus_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.ficus_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les ficus ici  */
+
+/* On commence les griseline ici  */
+
+.grise_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.grise_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.grise_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.grise_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les griseline ici  */
+
+/* On commence les hyeres ici  */
+
+.hyeres_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.hyeres_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.hyeres_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.hyeres_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les hyeres ici  */
+
+/* On termine les ipheion ici  */
+
+.ipheion{
+  width: 66vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les ipheion ici  */
+
+/* On termine les jardinière ici  */
+
+.jardi_g{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+.jardi_c{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+  margin-right: 5vw;
+}
+
+.jardi_d{
+  width: 21vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+  margin-right: 5vw;
+}
+
+/* On termine les jardinière ici  */
+
+/* On commence les kentia ici  */
+
+.kentia_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.kentia_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.kentia_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.kentia_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les kentia ici  */
+
+/* On commence les lepto ici  */
+
+.lepto_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.lepto_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.lepto_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.lepto_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les lepto ici  */
+
+/* On commence les monstera ici  */
+
+.monstera_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.monstera_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.monstera_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.monstera_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les monstera ici  */
+
+/* On termine les narcisse ici  */
+
+.narcisse{
+  width: 66vw;
+  height: 64vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les narcisse ici  */
+
+/* On commence les olivier ici  */
+
+.olivier_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.olivier_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.olivier_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.olivier_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les olivier ici  */
+
+/* On commence les pampa ici  */
+
+.pampa_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.pampa_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.pampa_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.pampa_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les pampa ici  */
+
+/* On commence les queen ici  */
+
+.queen_hg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+
+}
+
+.queen_hd{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.queen_bg{
+  width: 21vw;
+  height: 36vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.queen_bd{
+  width: 21vw;
+  height: 36vh;
+  margin-bottom: 5vh;
+}
+
+/* On termine les queen ici  */
+
+
 
 .retour{
   font-family: "Montserrat";
-  color: #6B705C;
+  font-size: 0.75em;
+  color: #FFF;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  margin-top: 5vh;
+  background-color:#CB997E;
+  border-radius: 50px;
+}
+
+.fleches{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 20vw; */
+  margin-right: 30vw;
+  margin-bottom: 10vh;
 }

@@ -15,6 +15,9 @@ body{
   font-weight: normal;
   color: #CB997E;
   text-decoration: none;
+  /* background-color: #CB997E;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px; */
 }
 
 .titre{
@@ -45,6 +48,15 @@ p{
   font-weight: 600;
   color: #6B705C;
   font-size: 0.75em;
+  text-decoration: none;
+}
+
+.sous-nom:hover{
+  font-family: "Movement";
+  font-weight: 600;
+  color: #CB997E;
+  font-size: 0.75em;  
+  text-decoration: none;
 }
 
 #lettre{
@@ -58,6 +70,7 @@ p{
 flex-basis: 960px;
  margin: 0 auto;
   flex-shrink: 1;
+  margin-bottom: 10vh;
 }
 
 .compolettre{

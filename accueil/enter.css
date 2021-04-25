@@ -13,9 +13,14 @@ body{
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: normal;
-  color: #CB997E;
+  color: #FFF;
   text-decoration: none;
-  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-color: #CB997E;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  margin: 39vw;;
 }
 
 .titre{
@@ -23,8 +28,57 @@ body{
   width: 100vw;
   color: #CB997E;
   text-align: center;
+  margin-top: 7vh;
 }
 
 .arrosoir{
-width: 30%;
+  transition: 0.70s;
+-webkit-transition: 0.70s;
+-moz-transition: 0.70s;
+-ms-transition: 0.70s;
+-o-transition: 0.70s;
+width: 30vw;
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5vh;
+margin-bottom: 10vh;
+/* width: 30%;
+display: block;
+margin: auto; */
+
+/* animation-name: arrosoir-turn;
+animation-duration: 2s;
+animation-delay: 0.2s; */
 }
+
+.arrosoir:hover{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+
+
+/* animation-name: arrosoir-turn;
+animation-duration: 2s;
+animation-delay: 0.2s; }*/
+
+/* @keyframes arrosoir-turn {
+ from{
+   transition: all 1s ease;
+   transform: rotate(0);
+ }
+ to{
+   transition: all 1s ease;
+   transform: rotate(-45deg);
+
+ }
+} */

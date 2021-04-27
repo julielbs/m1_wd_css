@@ -13,8 +13,11 @@ body{
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: normal;
-  color: #CB997E;
+  color: #FFF;
   text-decoration: none;
+  background-color: #CB997E;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
   /* background-color: #CB997E;
   padding: 10px 10px 10px 10px;
   border-radius: 50px; */
@@ -55,7 +58,7 @@ p{
   font-family: "Movement";
   font-weight: 600;
   color: #CB997E;
-  font-size: 0.75em;  
+  font-size: 0.75em;
   text-decoration: none;
 }
 

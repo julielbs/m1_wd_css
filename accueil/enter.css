@@ -5,19 +5,26 @@
   src: url('fonts/movement/MovementV.ttf');
 }
 
+:root{
+  --font-size: 14px;
+  --rose-fonce: #CB997E;
+}
+
 body{
   background-color: #FFF4EB;
 }
-
+svg:hover{
+  fill: var(--rose-fonce);
+}
 .click{
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: var(--font-size);
   font-weight: normal;
   color: #FFF;
   text-decoration: none;
   width: 100%;
   margin: auto;
-  background-color: #CB997E;
+  background-color: var(--rose-fonce);
   padding: 10px 10px 10px 10px;
   border-radius: 50px;
   margin: 39vw;;
@@ -26,10 +33,40 @@ body{
 .titre{
   font-family: "Movement";
   width: 100vw;
-  color: #CB997E;
+  color: var(--rose-fonce);
   text-align: center;
   margin-top: 7vh;
 }
+
+.arrosoir{
+  width: 39%;
+  display: block;
+  margin: auto;
+}
+
+.arrosoir:hover{
+  animation-name: arrosoir-turn;
+  animation-duration: 2s;
+  animation-delay: 0.2s;
+}
+
+@keyframes arrosoir-turn {
+ 0%{
+   transition: all 2s ease;
+   transform: rotate(0);
+ }
+ 50%{
+   transition: all 2s ease;
+   transform: rotate(-25deg);
+ }
+ 100%{
+   transition: all 2s ease;
+   transform: rotate(0);
+ }
+}
+
+/* TEST
+
 
 .arrosoir{
   transition: 0.70s;
@@ -42,17 +79,19 @@ display: block;
 margin-right: auto;
 margin-left: auto;
 margin-top: 5vh;
-margin-bottom: 10vh;
+margin-bottom: 10vh; */
+
+
 /* width: 30%;
 display: block;
 margin: auto; */
 
 /* animation-name: arrosoir-turn;
 animation-duration: 2s;
-animation-delay: 0.2s; */
-}
+animation-delay: 0.2s;
+}*/
 
-.arrosoir:hover{
+/* .arrosoir:hover{
   transition: 0.70s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -63,7 +102,7 @@ animation-delay: 0.2s; */
   -o-transform: rotate(-35deg);
   -ms-transform: rotate(-35deg);
   transform: rotate(-35deg);
-}
+} */
 
 
 
@@ -81,7 +120,7 @@ animation-delay: 0.2s; }*/
    transform: rotate(-45deg);
 
  }
-} */
+}  TEST FIN  */
 
 @media screen and (max-width: 640px) {
   .arrosoir{

@@ -5,17 +5,23 @@
   src: url('fonts/Movement/MovementV.ttf');
 }
 
+:root{
+  --font-size: 14px;
+  --rose-fonce: #CB997E;
+  --vert-kaki: #6B705C;
+}
+
 body{
   background-color: #FFF4EB;
 }
 
 .click{
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: var(--font-size);
   font-weight: normal;
   color: #FFF;
   text-decoration: none;
-  background-color: #CB997E;
+  background-color: var(--rose-fonce);
   padding: 10px 10px 10px 10px;
   border-radius: 50px;
   /* background-color: #CB997E;
@@ -26,7 +32,7 @@ body{
 .titre{
   font-family: "Movement";
   width: 100vw;
-  color: #CB997E;
+  color: var(--rose-fonce);
 }
 
 .intro{
@@ -34,14 +40,14 @@ body{
   width: 50vw;
   margin-left: 25%;
   font-weight: 400;
-  color: #6B705C;
+  color: var(--vert-kaki);
   font-size: 0.75em;
 }
 
 .merci{
   font-family: "Montserrat";
   font-weight: 400;
-  color: #6B705C;
+  color: var(--vert-kaki);
   font-size: 1em;
   text-align: center;
 }
@@ -49,7 +55,7 @@ body{
 p{
   font-family: "Movement";
   font-weight: 600;
-  color: #6B705C;
+  color: var(--vert-kaki);
   font-size: 0.75em;
   text-decoration: none;
 }
@@ -57,7 +63,7 @@ p{
 .sous-nom:hover{
   font-family: "Movement";
   font-weight: 600;
-  color: #CB997E;
+  color: var(--rose-fonce);
   font-size: 0.75em;
   text-decoration: none;
 }
@@ -124,7 +130,7 @@ display:block;
   text-decoration:none;
   text-align:center;
   padding-top: 30px;
-  color: #CB997E;
+  color: var(--rose-fonce);
   font-family: "Movement";
   font-weight: bold;
   flex-basis: 24vw;

@@ -17,3 +17,5 @@ Pour la progress bar :
 • chrome://flags
 • Experimental Web Platform features : enabled
 • Relaunch
+
+ATTENTION : PROJET À REGARDER SUR GOOGLE 
